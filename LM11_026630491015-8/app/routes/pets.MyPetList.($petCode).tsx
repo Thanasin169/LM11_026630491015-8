@@ -27,12 +27,6 @@ export default function GetPet() {
             {pet ? (
                 <div>
                     <table className="border-collapse border border-purple-300 w-full mt-4">
-                        <thead>
-                            <tr>
-                                <th className="border border-purple-300 p-2 text-purple-600">Field</th>
-                                <th className="border border-purple-300 p-2 text-purple-600">Details</th>
-                            </tr>
-                        </thead>
                         <tbody>
                             <tr>
                                 <td className="border border-purple-300 p-2">Photo</td>
